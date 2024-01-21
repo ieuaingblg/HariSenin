@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("ps.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130vh;
+}
+
+nav {
+    background-color: #252b42;
+    padding: 10px;
+    border-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-name {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.waw {
+    padding: 8px 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.login-button {
+    background-color: #4169E1;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.login-button:hover {
+    background-color: #6495ED;
+}
+
+main {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.shop {
+    background-color: #800080;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    color: white;
+    padding: 30px 100px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.shop:hover {
+    background-color: #BA55D3;
+}
+
+footer {
+    background-color: #252b42;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+}
+
+.foot {
+    float: right;
+    margin-right: 50px;
+}
